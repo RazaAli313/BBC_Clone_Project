@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >BBC - Homepage</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            
+            height:50px;
+            background-color:#000000;
+        }
+        .box{
+            transform: translate(250px,10px);
+        }
+        .box p{
+            display: inline-flex;
+            color:white;
+            transform: translate(-120px,-10px);
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+        }
+        .box span a{
+             text-decoration: none;
+            padding:15px;
+            color:white;
+            font-size:9px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+        }
+        .box span{
+            position: absolute;
+            top:-1px;
+        }
+        .box img{
+            transform: translateX(-130px);
+            height: 30px;
+        }
+        main{
+
+            background-color: white;
+            height: 100vh;
+        }
+        main p{
+            font-weight: 550;
+            transform: translate(950px,27px);
+            font-size: 10px;
+        }
+        main img{
+            display: flex;
+            width:65vw;
+           transform: translate(225px,30px);
+        }
+        #dots{
+            font-size: 18px;
+        }
+       .search{
+        
+           display: inline-block;
+        }
+        .search input{
+            height: 30px;
+           background-color:#3A3C3E;
+           transform: translate(600px,-10px);
+
+       }
+       ::placeholder{
+         color: white;
+       }
+       .box1{
+        transform: translate(-140px,-7px);
+        display: inline-flex;
+    }
+    .box1 ul li{
+            text-align: center;
+            display: inline-flex;
+          padding: 0px;
+         background-color: white;
+         color:#000000;
+         height: 25px;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: 550;
+         margin:2px;
+         width:25px;
+       }
+       footer{
+         margin-bottom: 0px;
+         transform: translateY(1000px);
+         height:400px;
+         background-color:#4C4C4C;
+       }
+       .box2 h3{
+        padding: 50px;
+        color: white;
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+       }
+        .part ul{
+            
+            display: flex;   
+            justify-content: space-evenly;     
+            
+        }
+        .part ul li{
+        transform: translateX(50px);
+        list-style-type: none;
+        color: white;
+        font-size: 15px;
+        margin-bottom: 50px;
+       }
+       .part ul li:hover{
+        text-decoration: underline;
+        font-weight: 600;
+       }
+       .final{
+        margin-top:50px;
+        margin-bottom:120px;
+        color:white;
+        display: flex;
+        justify-content: space-evenly;
+       }
+       footer p{
+        text-align: center;
+        color:white;
+       }
+       .clone p{
+        transform: translate(300px,50px);
+        display: flex;
+        flex-direction: row;
+         font-size: 20px;
+         justify-content: flex-start;
+       }
+       main span img{
+        width:400px;
+        height: 300px;
+       }
+       #img1{
+        float:left;
+        transform: translate(200px,70px);
+    }
+    #img2{
+        float:left;
+        transform: translate(350px,72px);
+       }
+       #img3{
+        transform: translate(-50px,400px);
+       }
+       #img4{
+        transform: translate(200px,100px);
+       }
+    main span h3{
+        color: black    ;
+        transform: translate(-60px,330px);
+        display: flex;
+        font-size: 25px;
+        
+    }
+    #head{
+        transform: translate(-620px,385px);
+    }
+    #h1{
+        transform: translate(159px,114px);
+    }
+    #h2{
+        transform: translate(760px,90px);
+    }
+    #h3{
+        transform: translate(120px,-120px);
+    }
+    #h4{
+        transform: translate(700px,-150px);
+    }
+    #img5{
+        transform: translate(200px,150px);
+    }
+    #img6{
+        transform: translate(760px,-150px);
+    }
+    #date{
+        color:#978C8C;
+        transform: translate(870px,30px);
+    }
+    .box2 h3:hover{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    .final ul:hover{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    .box span a:hover{
+        text-decoration: underline;
+        font-weight: 900;
+        font-size: 10px;
+    }
+    .box1 ul li a{
+        color:black;
+        text-decoration: none;
+    }
+    </style>
+</head>
+<body>
+<header>
+   <div class="box">
+
+    <div class="box1">
+        <ul>
+            <li><a href="https://www.bbc.com/">B</a></li>
+            <li><a href="https://www.bbc.com/">B</a></li>
+            <li><a href="https://www.bbc.com/">C</a></li>
+        </ul>
+    </div>
+    <img src="profile.png"alt="profile_icon">
+    <p>Sign in</p>
+    <span>
+    <a href="Home">Home</a>
+    <a href="News">News</a>
+    <a href="Sports">Sport</a>
+    <a href="Reel">Reel</a>
+    <a href="Worklife">Worklife</a>
+    <a href="Travel">Travel</a>
+    <a href="Future" >Future</a>
+    <a href="Culture">Culture</a>
+    <a id="dots" href="three-dots">...</a>
+    </span>
+    <div class="search">
+        <input type="text"placeholder=" &#128269 Search BBC">
+    </div>
+    
+</div>
+
+</header>
+<main>
+    <p>ADVERSTISEMENT</p>
+    <img src="https://tpc.googlesyndication.com/simgad/7833727425578987815">
+    <div class="clone">
+      <p >Welcome to BBC.com</p>
+      <p id="date"></p>
+    <span>
+    <img id="img1" src="https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/10912/production/_130785876_gettyimages-1592921730.jpg">
+    <img id="img2" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/1EF7/production/_130172970_ecd8d43195c4f9997ddd683393e8cd26782cccb2-2.jpg.webp">
+</span>
+<span> 
+    <h3 id="head">Mauli bracing for 'significant'death toll rise </h3>
+    <h3>Italy could host Musk v Zuckerberg cage fight </h3>
+</span>
+<span>
+<img id="img3" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C632/production/_130683705_ea2363fd6e2be67055157c4f5e6766110777ffea.jpg.webp">
+<img id="img4" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/C352/production/_130520005_gettyimages-1245247600.jpg.webp">
+</span>
+<span> 
+    <h3 id="h1">Why it matters where your data is stored?</h3>
+    <h3 id="h2">Have we had our fill of fake meat?</h3>
+</span> 
+<span>
+<img id="img5" src="https://ichef.bbci.co.uk/news/976/cpsprodpb/125A0/production/_130786157_83447fcb3d831c6d52758e5457883d7ef1840947.jpg.webp">
+<img id="img6" src="https://ichef.bbci.co.uk/onesport/cps/800/cpsprodpb/14666/production/_130785538_c0da5b9eb4e9f3280dbb1ca909f3c4ebc6002e34.jpg">
+</span>
+<span> 
+    <h3 id="h3">In Pictures:Persied meteor shower lights up skies</h3>
+    <h3 id="h4">Hamlin plays first Bills game since cardiac arrest</h3>
+</span> 
+</div>
+</main>
+<footer>
+  <div class="box2">
+    <h3>Explore the BBC</h3>
+  </div>
+  <div class="box3">
+      <span class="part">
+        <ul>
+        <li>Home</li>
+        <li>News</li>
+        <li>Sport</li>
+        <li>Reel</li>
+        <li>Worklife</li>
+        <li>Travel</li>
+        </ul>
+       <hr>
+    </span>
+  </div>
+    <div class="final">
+        <ul>Terms of Use</ul>
+        <ul>About the BBC</ul>
+        <ul>Privacy Policy</ul>
+        <ul>Cookies</ul>
+    </div>
+    <p>Copyright&copy;2023 BBC.The BBC  is not responsible for the content of external sites. Read about our approach to external linking.</p>
+</footer>
+     <script>
+    var currentDate = new Date();
+    var dateElement = document.getElementById('date');
+    dateElement.innerHTML = currentDate.toDateString();
+    window.addEventListener("load",function(){
+         window.alert("Welcome to BBC.com");
+    })
+    function func(){
+      
+    }
+     </script>
+     
+</body>
+</html>
