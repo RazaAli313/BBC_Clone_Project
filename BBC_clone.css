@@ -1,1 +1,200 @@
 
+       *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            
+            height:50px;
+            background-color:#000000;
+        }
+        .box{
+            transform: translate(250px,10px);
+        }
+        .box p{
+            display: inline-flex;
+            color:white;
+            transform: translate(-120px,-10px);
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+        }
+        .box span a{
+             text-decoration: none;
+            padding:15px;
+            color:white;
+            font-size:9px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+        }
+        .box span{
+            position: absolute;
+            top:-1px;
+        }
+        .box img{
+            transform: translateX(-130px);
+            height: 30px;
+        }
+        main{
+
+            background-color: white;
+            height: 100vh;
+        }
+        main p{
+            font-weight: 550;
+            transform: translate(950px,27px);
+            font-size: 10px;
+        }
+        main img{
+            display: flex;
+            width:65vw;
+           transform: translate(225px,30px);
+        }
+        #dots{
+            font-size: 18px;
+        }
+       .search{
+        
+           display: inline-block;
+        }
+        .search input{
+            height: 30px;
+           background-color:#3A3C3E;
+           transform: translate(600px,-10px);
+
+       }
+       ::placeholder{
+         color: white;
+       }
+       .box1{
+        transform: translate(-140px,-7px);
+        display: inline-flex;
+    }
+    .box1 ul li{
+            text-align: center;
+            display: inline-flex;
+          padding: 0px;
+         background-color: white;
+         color:#000000;
+         height: 25px;
+         font-size: 20px;
+         font-family: Verdana, Geneva, Tahoma, sans-serif;
+         font-weight: 550;
+         margin:2px;
+         width:25px;
+       }
+       footer{
+         margin-bottom: 0px;
+         transform: translateY(1000px);
+         height:400px;
+         background-color:#4C4C4C;
+       }
+       .box2 h3{
+        padding: 50px;
+        color: white;
+        font-size: 18px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+       }
+        .part ul{
+            
+            display: flex;   
+            justify-content: space-evenly;     
+            
+        }
+        .part ul li{
+        transform: translateX(50px);
+        list-style-type: none;
+        color: white;
+        font-size: 15px;
+        margin-bottom: 50px;
+       }
+       .part ul li:hover{
+        text-decoration: underline;
+        font-weight: 600;
+       }
+       .final{
+        margin-top:50px;
+        margin-bottom:120px;
+        color:white;
+        display: flex;
+        justify-content: space-evenly;
+       }
+       footer p{
+        text-align: center;
+        color:white;
+       }
+       .clone p{
+        transform: translate(300px,50px);
+        display: flex;
+        flex-direction: row;
+         font-size: 20px;
+         justify-content: flex-start;
+       }
+       main span img{
+        width:400px;
+        height: 300px;
+       }
+       #img1{
+        float:left;
+        transform: translate(200px,70px);
+    }
+    #img2{
+        float:left;
+        transform: translate(350px,72px);
+       }
+       #img3{
+        transform: translate(-50px,400px);
+       }
+       #img4{
+        transform: translate(200px,100px);
+       }
+    main span h3{
+        color: black    ;
+        transform: translate(-60px,330px);
+        display: flex;
+        font-size: 25px;
+        
+    }
+    #head{
+        transform: translate(-620px,385px);
+    }
+    #h1{
+        transform: translate(159px,114px);
+    }
+    #h2{
+        transform: translate(760px,90px);
+    }
+    #h3{
+        transform: translate(120px,-120px);
+    }
+    #h4{
+        transform: translate(700px,-150px);
+    }
+    #img5{
+        transform: translate(200px,150px);
+    }
+    #img6{
+        transform: translate(760px,-150px);
+    }
+    #date{
+        color:#978C8C;
+        transform: translate(870px,30px);
+    }
+    .box2 h3:hover{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    .final ul:hover{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    .box span a:hover{
+        text-decoration: underline;
+        font-weight: 900;
+        font-size: 10px;
+    }
+    .box1 ul li a{
+        color:black;
+        text-decoration: none;
+    }
+  
